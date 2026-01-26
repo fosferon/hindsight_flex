@@ -1,0 +1,15 @@
+{
+  "name": "hindsight",
+  "private": true,
+  "workspaces": [
+    "hindsight-clients/typescript",
+    "hindsight-control-plane",
+    "hindsight-docs"
+  ],
+  "scripts": {
+    "prepare": "./scripts/setup-hooks.sh"
+  },
+  "overrides": {
+    "qs": "^6.14.1"
+  }
+}

@@ -1,0 +1,53 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.mcp.json
+.osgrep
+# Virtual environments
+.venv
+
+# Node
+node_modules/
+
+# Environment variables and local config
+.env
+docker-compose.yml
+docker-compose.override.yml
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# NLTK data (will be downloaded automatically)
+nltk_data/
+
+# Monitoring stack (Prometheus/Grafana binaries and data)
+.monitoring/
+.pgbouncer/
+
+# Large benchmark datasets (will be downloaded automatically)
+**/longmemeval_s_cleaned.json
+
+# Debug logs
+logs/
+
+.DS_Store
+
+# Generated docs files
+hindsight-docs/static/llms-full.txt
+
+
+hindsight-dev/benchmarks/locomo/results/
+hindsight-dev/benchmarks/longmemeval/results/
+hindsight-cli/target
+hindsight-clients/rust/target
+.claude
+whats-next.md
+TASK.md
+CHANGELOG.md
