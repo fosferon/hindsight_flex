@@ -464,8 +464,10 @@ class MemoryEngine(MemoryEngineInterface):
             AuthenticationError: If authentication fails or request_context is missing when required.
         """
         if self._tenant_extension is None:
-            _current_schema.set("public")
-            return "public"
+            # Use configured schema if set, otherwise default to public
+            schema = self._schema or "public"
+            _current_schema.set(schema)
+            return schema
 
         from hindsight_api.extensions import AuthenticationError
 
