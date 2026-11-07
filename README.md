@@ -1,3 +1,7 @@
+> **Archived.** This project is superseded by [foresight](https://github.com/fosferon/foresight)
+> ([Hex](https://hex.pm/packages/foresight)), semantic memory for Elixir: retain, recall, reflect.
+> This repository is kept read-only for reference.
+
 <div align="center">
 
 ![Hindsight Banner](./hindsight-docs/static/img/banner.svg)
